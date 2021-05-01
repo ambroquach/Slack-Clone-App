@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin|Smythe|Grandstander|Pompiere|Thasadith|Quicksand&display=swap');
+
+html,
+body,
+.register-grid {
+    height: 100vh;
+    padding: 1rem;
+    margin: 0 35rem;
+    background-color: #242424;
+}
+
+.fonts {
+    font-family: Grandstander, sans-serif;
+}
+
+@font-face {
+    font-family: 'Carosello';
+    src: url('../fonts/Carosello-Regular.otf') format('truetype');
+}
+@font-face {
+    font-family: 'Streetwear';
+    src: url('../fonts/Streetwear.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DankMono';
+    src: url('../fonts/DankMono-Regular.otf') format('truetype');
+}
+@font-face {
+    font-family: 'DankMono-Italic';
+    src: url('../fonts/DankMono-Italic.otf') format('truetype');
+}
+@font-face {
+    font-family: 'DankMono-Bold';
+    src: url('../fonts/DankMono-Bold.otf') format('truetype');
+}
+@font-face {
+    font-family: 'OperatorMono';
+    src: url('../fonts/OperatorMono-Book.otf') format('truetype');
+
+    /* font-weight: normal;
+    font-style: normal;
+    font-display: wrap; */
+}
