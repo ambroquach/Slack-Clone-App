@@ -4,13 +4,14 @@ html,
 body,
 .register-grid {
     height: 100vh;
+    /* Take up the entire height of the viewport */
     padding: 1rem;
     margin: 0 35rem;
-    background-color: #242424;
+    background-color: #ffffff;
 }
 
 .fonts {
-    font-family: Grandstander, sans-serif;
+    font-family: Carosello, sans-serif;
 }
 
 @font-face {

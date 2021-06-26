@@ -13,6 +13,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 const Root = () => (
     <Router>
         <Switch>
+            {/* Main page */}
+            {/* exact prevents Switch from matching multiple components */}
             <Route exact path="/" component={App}></Route>
             <Route path="/register" component={Register}></Route>
             <Route path="/login" component={Login}></Route>
